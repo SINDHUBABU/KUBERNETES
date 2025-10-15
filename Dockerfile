@@ -6,7 +6,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your frontend repo
-    RUN git clone <git repo > .
+    RUN git clone https://github.com/SINDHUBABU/KUBERNETES.git .
     
     RUN npm install
     RUN npm run build

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: <docker repo>/skill14:v1   # ✅ Your image
+        image: sindhu1234babu/s118_kuber:v1   # ✅ Your image
         ports:
         - containerPort: 8080             # ✅ Must match app’s internal port
 ---
